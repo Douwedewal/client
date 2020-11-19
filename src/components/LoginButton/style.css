@@ -1,0 +1,27 @@
+form {
+    text-align: center;
+}
+
+.login-button-logo {
+    position: relative;
+    left: 25%;
+}
+
+.login-form {
+    margin: 3rem;
+}
+
+.login-form input{
+    width: 70%;
+}
+
+.login-form-header {
+    background-color: #0074d9;
+}
+
+@media screen and (max-width: 992px) {
+    .login-button-logo {
+        position: relative;
+        left: 15%;
+    }
+}

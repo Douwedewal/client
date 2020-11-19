@@ -1,0 +1,51 @@
+.wrapper {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.about-wrapper {
+    text-align: center;
+}
+
+.about-wrapper h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.text-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-section img {
+    border-radius: 20%;
+}
+
+.text-section p img {
+    margin-top: 5rem;
+}
+
+.info-song-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 992px) {
+    .text-section {
+        flex-direction: column;
+    }
+
+    .text-section img {
+        height: 300px;
+    }
+
+    .text-section p {
+        margin-top: 20px;
+    }
+
+    .text-section p img {
+        display: none;
+    }
+}

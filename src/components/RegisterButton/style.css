@@ -1,0 +1,39 @@
+form {
+    text-align: center;
+}
+
+.form-errors {
+    color: red;
+}
+
+.register-modal {
+    box-shadow: 50px 101px;
+}
+
+.register-button {
+    margin-top: 25px;
+}
+
+.register-button-logo {
+    position: relative;
+    left: 20%;
+}
+
+.register-form {
+    margin: 3rem;
+}
+
+.register-form input {
+    width: 70%;
+}
+
+.register-form-header {
+    background-color: #0074d9;
+}
+
+@media screen and (max-width: 992px) {
+    .register-button-logo {
+        position: relative;
+        left: 8%;
+    }
+}

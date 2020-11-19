@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+
+.wrapper {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-song-section {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+    background-image: url(./assets/cheering.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #e3e1dc;
+}
+
+.container h1 {
+    color: black;
+}
+
+.container p {
+    color: white;
+}
+
+.upload-container {
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-text {
+    text-align: center;
+    margin: 4px;
+}
+
+select {
+    margin: 0px 5px;
+}
+
+.genreList {
+    text-align: center;
+}
+
+.genreList select {
+    text-align: center;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.listOfSongs {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.listOfSongs div {
+    display: flex;
+}
+
+.listOfSongs h6 {
+    position: relative;
+    top: 15px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .upload-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field-main {
+        margin: 5px 0px;
+    }
+
+    .upload-button {
+        margin: 5px 0px;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
